@@ -1,2 +1,2 @@
-web: node src/index.js
-release: node scripts/migrate.js
+web: node scripts/migrate.js && node src/index.js
+
