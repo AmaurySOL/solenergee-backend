@@ -4,7 +4,7 @@
   "description": "Backend API pour le suivi des AO Solenergee",
   "main": "src/index.js",
   "scripts": {
-    "start": "node scripts/migrate.js && node scripts/seed.js && node src/index.js",
+    "start": "bash start.sh",
     "dev": "nodemon src/index.js",
     "db:migrate": "node scripts/migrate.js",
     "db:seed": "node scripts/seed.js"
